@@ -29,7 +29,7 @@ else
   puts batch.errors
 end
 
-# `rm #{image_dir}/*.*_original`
+# `mogrify -quality 80% #{image_dir}/*.jpg` # reduce filesize
 
 # reader = MultiExiftool::Reader.new
 # reader.filenames = image_files
