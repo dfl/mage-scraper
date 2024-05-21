@@ -3,3 +3,5 @@ source "https://rubygems.org"
 
 ruby "3.3.1"
 gem "ferrum"
+gem "multi_exiftool"
+gem "activesupport"
